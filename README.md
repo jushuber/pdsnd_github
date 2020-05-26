@@ -15,6 +15,13 @@ The insights shared include statistics about:
 
 In addition, the code gives access to some raw data.
 
+####Time statistics information
+
+Some examples of time statistics include:
+* most common month 
+* most common day of week
+* most common start hour
+
 ### Files used
 Data files on chicago, new york city and washington.
 Python code file: bikeshare.py
