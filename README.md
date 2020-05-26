@@ -22,9 +22,15 @@ Some examples of time statistics include:
 * most common day of week
 * most common start hour
 
-### Files used
-Data files on chicago, new york city and washington.
-Python code file: bikeshare.py
+### Content of the repository
+
+**Data files not included in remote repository**:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
+
+**Python source code**: 
+* bikeshare.py
 
 ### Credits
 Udacity
