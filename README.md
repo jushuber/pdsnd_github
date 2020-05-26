@@ -15,13 +15,6 @@ The insights shared include statistics about:
 
 In addition, the code gives access to some raw data.
 
-####Time statistics information
-
-Some examples of time statistics include:
-* most common month 
-* most common day of week
-* most common start hour
-
 ### Content of the repository
 
 **Data files not included in remote repository**:
