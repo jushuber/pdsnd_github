@@ -32,6 +32,10 @@ Some examples of time statistics include:
 **Python source code**: 
 * bikeshare.py
 
+### Software required
+
+To read Python file, you can use Atom.io
+
 ### Credits
 Udacity
 
