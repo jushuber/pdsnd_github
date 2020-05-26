@@ -17,22 +17,22 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    print('Which city would you like to see data?')
-    city = input("Please enter the name of the city to analyze: ").lower()
+    print('Which city would you like to see data?/Pour quelle ville souhaitez-vous voir les donnees?')
+    city = input("Please enter the name of the city to analyze/Veuillez entrer le nom de la ville a analyser: ").lower()
 
     while city not in CITY_DATA:
         city = input('Invalid entry. Please enter one of the following cities, chicago, new york city, washington: ').lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    print('Which month?')
-    month = input('Please enter month name: ').lower()
+    print('Which month?/Quel mois?')
+    month = input('Please enter month name/Veuillez entrer le mois: ').lower()
 
     while month not in ['january','february','march','april','may','june']:
-        month = input('Invalid entry. Please enter one of the following months, january, february, march, april, may, june: ').lower()
+        month = input('Invalid entry. Please enter one of the following months, january, february, march, april, may, june/Veuillez entrer un mois: ').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    print('Which day?')
-    day = input('Please enter day name: ').lower()
+    print('Which day?/Quel jour?')
+    day = input('Please enter day name/Veuillez entrer un jour: ').lower()
 
     while day not in ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']:
         day = input('Invalid entry. Please enter one of the following days, monday, tuesday, wednesday, thursday, friday, saturday, sunday: ').lower()
