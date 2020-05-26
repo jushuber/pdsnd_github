@@ -36,6 +36,12 @@ Some examples of time statistics include:
 
 To read Python file, you can use Atom.io
 
+### FAQ
+
+_My inputs are rejected_:
+Please make sure you don't add an extra space after cities, months and days.
+
+
 ### Credits
 Udacity
 
